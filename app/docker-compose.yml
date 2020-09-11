@@ -1,0 +1,15 @@
+version: "3"
+services:
+#Mysql db
+  mysql-container:
+    image: mysql-image
+    ports: 
+     - 3306:3306
+  #NodeJs service
+  webserver:
+    image: webimage
+    ports: 
+      - 3000:3000
+    depends_on: 
+      - mysql-container
+  
