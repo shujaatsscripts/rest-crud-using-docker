@@ -1,6 +1,6 @@
 # rest_crud-using-docker
 
-Install docker and docker clone before using this
+Install docker and docker-compose before using this app
  
  Clone repo using
       
@@ -8,7 +8,7 @@ Install docker and docker clone before using this
   
   Move to directory
       
-      $ cd rest rest-crud-using-docker
+      $ cd rest-crud-using-docker
   
   Download th images and run app on the containers
       
