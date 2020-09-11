@@ -8,7 +8,7 @@ Install docker and docker-compose before using this app
   
   Move to directory
       
-      $ cd rest-crud-using-docker
+      $ cd rest-crud-using-docker/app
   
   Download th images and run app on the containers
       
