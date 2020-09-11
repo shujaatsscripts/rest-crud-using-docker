@@ -4,7 +4,7 @@ Install docker and docker clone before using this
  
  Clone repo using
       
-      $ git clone
+      $ git clone https://github.com/usamashujaat1812/rest-crud-using-docker.git
   
   Move to directory
       
