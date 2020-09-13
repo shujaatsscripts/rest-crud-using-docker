@@ -10,7 +10,7 @@ Install docker and docker-compose before using this app
       
       $ cd rest-crud-using-docker/app
   
-  Download th images and run app on the containers
+  Build images and run app on containers
       
       $ docker-compose up -d
   

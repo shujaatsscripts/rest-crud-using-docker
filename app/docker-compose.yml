@@ -2,12 +2,12 @@ version: "3"
 services:
 #Mysql db
   mysql-container:
-    image: usama1812/rest-crud-using-docker-mysql-server
+    build: ./mysql-server/
     ports: 
      - 3306:3306
   #NodeJs service
   webserver:
-    image: usama1812/rest-crud-using-docker-nodejs-webserver
+    build: ./web-app/
     ports: 
       - 3000:3000
     depends_on: 
