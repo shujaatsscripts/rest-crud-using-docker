@@ -1,6 +1,7 @@
 # rest_crud-using-docker
 
-Install docker and docker-compose before using this app
+Install docker and docker-compose before using this app 
+from https://docs.docker.com/engine/
  
  Clone repo using
       
